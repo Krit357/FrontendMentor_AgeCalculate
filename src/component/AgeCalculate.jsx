@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./AgeCalculate.css";
 import Calculate from "./Calculate";
+import arrowIcon from "/icon-arrow.svg?url";
 
 const AgeCalculate = () => {
   const [date, setDate] = useState("");
@@ -97,7 +98,7 @@ const AgeCalculate = () => {
           <div className="line">
             <div className="line-dash"></div>
             <div className="line-btn">
-              <img src="../src/assets/icon-arrow.svg" />
+              <img src={arrowIcon} alt="icon-arrow" />
             </div>
           </div>
 
