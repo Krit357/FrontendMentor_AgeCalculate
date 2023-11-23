@@ -97,7 +97,7 @@ const AgeCalculate = () => {
           <div className="line">
             <div className="line-dash"></div>
             <div className="line-btn">
-              <img src="../public/icon-arrow.svg" />
+              <img src="../src/assets/icon-arrow.svg" />
             </div>
           </div>
 
