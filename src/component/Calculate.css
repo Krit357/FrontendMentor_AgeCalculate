@@ -1,0 +1,10 @@
+.cal {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+  font-size: 32px;
+}
+
+.cal span {
+  color: var(--purple);
+}
